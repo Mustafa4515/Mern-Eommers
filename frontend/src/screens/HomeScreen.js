@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import data from '../data';
-
 export default function HomeScreen() {
   return <div>
     <h1>Featured Products</h1>
