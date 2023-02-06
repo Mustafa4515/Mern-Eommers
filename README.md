@@ -1,6 +1,7 @@
 # MERN ECOMERSE
 
 # Lessons
+
 1. Intoduction
 2. Install Tools
 3. Create React App
@@ -10,7 +11,7 @@
    1. create products arry
    2. add product image
    3. render products
-   4. style products  
+   4. style products
 6. Add routing
    1. npm i react-router-dom
    2. create route for home screen
@@ -34,3 +35,7 @@
    3. use state hook
    4. use effect hook
    5. use reducer hook
+9. Manage State By Reducer Hook
+   1. define reducer
+   2. update fetch data
+   3. get state from usReducer
