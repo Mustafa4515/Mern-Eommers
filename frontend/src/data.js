@@ -1,0 +1,53 @@
+const data = {
+  products: [
+    {
+      name: 'Name Products1',
+      slug: 'name-products1',
+      category: 'Shirts',
+      image: '/image/p1.jpg', //679px x829px
+      price: 120,
+      countInStock: 10,
+      brand: 'Nike',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'High quality shirts',
+    },
+    {
+      name: 'Name Products 2',
+      slug: 'name-products2',
+      category: 'Shirts',
+      image: '/image/p2.jpg',
+      price: 250,
+      countInStock: 20,
+      brand: 'Nike',
+      rating: 4.0,
+      numReviews: 10,
+      description: 'High quality shirts',
+    },
+    {
+      name: 'Name Products3',
+      slug: 'name-products3',
+      category: 'Shirts',
+      image: '/image/p3.jpg',
+      price: 1202,
+      countInStock: 13,
+      brand: 'Nike',
+      rating: 4.2,
+      numReviews: 10,
+      description: 'High quality shirts',
+    },
+    {
+        name: 'Name Products4',
+        slug: 'name-products4',
+        category: 'Shirts',
+        image: '/image/p4.jpg',
+        price: 1202,
+        countInStock: 15,
+        brand: 'Nike',
+        rating: 4.2,
+        numReviews: 10,
+        description: 'High quality shirts',
+      },
+  ],
+};
+export default data;
