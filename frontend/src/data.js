@@ -4,7 +4,7 @@ const data = {
       name: 'Name Products1',
       slug: 'name-products1',
       category: 'Shirts',
-      image: '/image/p1.jpg', //679px x829px
+      image: '/image/p1.png', //679px x829px
       price: 120,
       countInStock: 10,
       brand: 'Nike',
