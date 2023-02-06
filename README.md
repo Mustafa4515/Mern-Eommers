@@ -7,14 +7,14 @@
 4. Create Git Repository
 
 5. List Products
-  1. create products arry
-  2. add product image
-  3. render products
-  4. style products  
+   1. create products arry
+   2. add product image
+   3. render products
+   4. style products  
 6. Add routing
-  1. npm i react-router-dom
-  2. create route for home screen
-  3. create router for product screen
+   1. npm i react-router-dom
+   2. create route for home screen
+   3. create router for product screen
 7. Create Node.JS Server
    1. run npm init in root folder
    2. Update package.json set type: module
