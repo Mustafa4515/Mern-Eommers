@@ -36,3 +36,7 @@ color: #ffc000;
 .product-info{
   padding: 1rem;
 }
+.img-large{
+  max-width: 80%;
+  margin-bottom: 20px;
+}

@@ -7,8 +7,8 @@ function Rating(props) {
           className={
             rating >= 1
               ? 'fas fa-star'
-              : rating >= 0.5
-              ? 'fas fas-star-half-alt'
+              : rating >= 0.2
+              ? 'fas fa-star-half-alt'
               : 'far fa-star'
           }
         />
@@ -19,7 +19,7 @@ function Rating(props) {
             rating >= 2
               ? 'fas fa-star'
               : rating >= 1.5
-              ? 'fas fas-star-half-alt'
+              ? 'fas fa-star-half-alt'
               : 'far fa-star'
           }
         />
@@ -29,8 +29,8 @@ function Rating(props) {
           className={
             rating >= 3
               ? 'fas fa-star'
-              : rating >= 4.5
-              ? 'fas fas-star-half-alt'
+              : rating >= 2.5
+              ? 'fas fa-star-half-alt'
               : 'far fa-star'
           }
         />
@@ -40,8 +40,8 @@ function Rating(props) {
           className={
             rating >= 4
               ? 'fas fa-star'
-              : rating >= 1
-              ? 'fas fas-star-half-alt'
+              : rating >= 3.5
+              ? 'fas fa-star-half-alt'
               : 'far fa-star'
           }
         />
@@ -51,8 +51,8 @@ function Rating(props) {
           className={
             rating >= 5
               ? 'fas fa-star'
-              : rating >= 1.8
-              ? 'fas fas-star-half-alt'
+              : rating >= 4.5
+              ? 'fas fa-star-half-alt'
               : 'far fa-star'
           }
         />

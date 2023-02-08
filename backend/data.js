@@ -30,11 +30,11 @@ const data = {
       category: 'Shirts',
       image: '/image/p3.jpg',
       price: 1202,
-      countInStock: 13,
+      countInStock: 0,
       brand: 'Nike',
       rating: 4.2,
       numReviews: 10,
-      description: 'High quality shirts',
+      description: 'gbcbb b  b nvhgvhgvbn hvb gvbn hgvb  ghhdssssssssssssssssssssssssssssssssds',
     },
     {
       name: 'Name Products4',
