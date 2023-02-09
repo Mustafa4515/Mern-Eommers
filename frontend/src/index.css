@@ -39,4 +39,8 @@ color: #ffc000;
 .img-large{
   max-width: 80%;
   margin-bottom: 20px;
+  background-color: skyblue;
+}
+.card-img-top{
+  background-color: skyblue;
 }
