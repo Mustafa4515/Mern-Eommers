@@ -10,8 +10,8 @@ import Badge from 'react-bootstrap/Badge';
 import { useContext } from 'react';
 import { Store } from './screens/Store';
 function App() {
-  const {state}=useContext(Store);
-  const {cart}= state;
+  const { state } = useContext(Store);
+  const { cart } = state;
   return (
     <BrowserRouter>
       <div className="d-flex flex-column site-container">
@@ -22,11 +22,11 @@ function App() {
                 <Navbar.Brand>Brand's Factory</Navbar.Brand>
               </LinkContainer>
               <Nav className="me-auto">
-                <Link to="/cart" className='nav-link'>
+                <Link to="/cart" className="nav-link">
                   Cart
-                  {cart.cartItems.length> 0 &&(
+                  {cart.cartItems.length > 0 && (
                     <Badge pill bg="danger">
-                      {cart.cartItems.reduce((a,c)=>a+c.quantity,0)}
+                      {cart.cartItems.reduce((a, c) => a + c.quantity, 0)}
                     </Badge>
                   )}
                 </Link>
@@ -35,7 +35,7 @@ function App() {
           </Navbar>
         </header>
         <main>
-          <Container className='mt-3'>
+          <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/" element={<HomeScreen />} />
@@ -43,7 +43,7 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className='text-center'>All right Reseved</div>
+          <div className="text-center">All right Reseved</div>
         </footer>
       </div>
     </BrowserRouter>
