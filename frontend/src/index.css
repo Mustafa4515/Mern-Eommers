@@ -47,3 +47,6 @@ color: #ffc000;
 .img-thumbnail{
   height: 8px;
 }
+.small-container{
+  max-width: 600px;
+}
