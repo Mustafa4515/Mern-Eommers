@@ -44,3 +44,6 @@ color: #ffc000;
 .card-img-top{
   background-color: skyblue;
 }
+.img-thumbnail{
+  height: 8px;
+}

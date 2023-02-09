@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 import { useReducer, useEffect } from 'react';
 import Row from 'react-bootstrap/Row';
@@ -27,6 +27,7 @@ const reducer = (state, action) => {
   }
 };
 export default function ProductScreen() {
+  const navigate=useNavigate();
   const params = useParams();
   const { slug } = params;
   const [{ loading, error, product }, dispatch] = useReducer(reducer, {
@@ -60,6 +61,7 @@ export default function ProductScreen() {
       type: 'CART_ADD_ITEM',
       payload: { ...product, quantity },
     });
+    navigate('/cart')
   };
   return loading ? (
     <LoadingBox />
@@ -89,7 +91,7 @@ export default function ProductScreen() {
                 numReviews={product.numReviews}
               ></Rating>
             </ListGroup.Item>
-            <ListGroup.Item>Price : Rs {product.price}</ListGroup.Item>
+            <ListGroup.Item>Price : Rs.{product.price}</ListGroup.Item>
             <ListGroup.Item>
               Description:
               <p>{product.description}</p>
@@ -103,7 +105,7 @@ export default function ProductScreen() {
                 <ListGroup.Item>
                   <Row>
                     <Col>Price</Col>
-                    <Col>RS {product.price}</Col>
+                    <Col>Rs.{product.price}</Col>
                   </Row>
                 </ListGroup.Item>
                 <ListGroup.Item>
