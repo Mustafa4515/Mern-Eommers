@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      _id: '1',
+      // _id: '1',
       name: 'Name Products1',
       slug: 'name-products1',
       category: 'Shirts',
@@ -14,7 +14,7 @@ const data = {
       description: 'High quality shirts',
     },
     {
-      _id: '2',
+      // _id: '2',
       name: 'Name Products 2',
       slug: 'name-products2',
       category: 'Shirts',
@@ -27,7 +27,7 @@ const data = {
       description: 'High quality shirts',
     },
     {
-      _id: '3',
+      // _id: '3',
       name: 'Name Products3',
       slug: 'name-products3',
       category: 'Shirts',
@@ -40,7 +40,7 @@ const data = {
       description: 'High quality shirts',
     },
     {
-      _id: '4',
+      // _id: '4',
       name: 'Name Products4',
       slug: 'name-products4',
       category: 'Shirts',
